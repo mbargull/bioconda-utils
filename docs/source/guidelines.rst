@@ -37,6 +37,11 @@ TODO: additional info on the various R and bioconductor URLs
 
 Hashes
 ~~~~~~
+While either md5 or sha256 checksums are accepted, sha256 is preferable.
+
+Use ``sha256sum`` or ``shasum -a 256 ...`` on a file to compute its sha256 hash,
+and copy this into the recipe.
+
 Use `md5sum` (Linux) or `md5` (OSX) on a file to compute its md5 hash, and copy
 this into the recipe. A quick way of doing this is:
 
